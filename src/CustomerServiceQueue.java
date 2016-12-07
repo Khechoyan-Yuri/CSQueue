@@ -6,10 +6,8 @@ public class CustomerServiceQueue{
 	
 	public static void main(String[] args){
 		
-		
 		ArrayList<Customer> CustomerList = new ArrayList<Customer>();//Customer ArrayList
 		
-	
 		System.out.println("Welcome To The Verizon Store!");
 		
 		//Scanners
@@ -19,8 +17,6 @@ public class CustomerServiceQueue{
 		Scanner input4 = new Scanner(System.in);
 		
 		String command = "";
-		
-		
 		
 		while(1==1){//Go until the store presses n
 			System.out.println("Enter \"add\" to add, enter \"delete\" to delete, enter \"exit\" to exit, and enter \"print\" to print the list!");
@@ -50,26 +46,10 @@ public class CustomerServiceQueue{
 			}else if(command.equals("exit")){
 				break;
 			}
-			
-			
 		}	
-					
-				
-			
-		
-		
-		
-		
-		
-		
-		
 		input.close();
 		input2.close();
 		input3.close();
-		input4.close();
-		
-		
+		input4.close();	
 	}
-	
-	
 }
