@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 
@@ -31,10 +32,12 @@ public class CustomerServiceQueue{
 				double number = input3.nextDouble();
 				Customer customer = new Customer(firstname,lastname);
 				CustomerList.add(customer);
+				//Add twilio code
 				
 			}else if(command.equals("delete")){
 				System.out.println("The first person in the queue is erased!");
 				CustomerList.remove(0);
+				//add twilio code
 				if(CustomerList.isEmpty()){
 					System.out.println("There is nobody in the queue!");
 				}
